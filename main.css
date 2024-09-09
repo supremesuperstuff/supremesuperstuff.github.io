@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=SUSE:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
+
+body {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    max-width: 100%;
+}
+
+td {
+    max-width: 100%;
+}
+
+
+#pen-s-dof td {
+    text-align: right;
+    font-family: "Source Code Pro", monospace;
+}
+
+#pen-s-dof td,
+#pen-s-dof th,
+#pen-s-dof table {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
